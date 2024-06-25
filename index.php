@@ -17,6 +17,12 @@
     echo $name;
     ?>
     <h3>length of the text: <?php echo strlen ($name); ?> <h3>  
+
+    <form action="./index.php" method="GET">
+        <p>Which word would you like to exclude?</p>
+        <input type="text" name="exclude" id="exclude">
+        <button type="submit">SEND</button>
+    </form>
     
 </body>
 </html>
