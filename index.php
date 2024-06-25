@@ -14,6 +14,7 @@
     Cat slightly disrupts perception, however, as a result of which its user deals less damage to monsters. The Rook potion can be used to alleviate this side effect.
     Potion causes minor intoxication when imbibed.
     The Cat potion is recommended before entering a cave or a crypt, and before a midnight stroll through dangerous terrain.";
+    $name = str_replace($_GET["exclude"], "****", $name);
     echo $name;
     ?>
     <h3>length of the text: <?php echo strlen ($name); ?> <h3>  
